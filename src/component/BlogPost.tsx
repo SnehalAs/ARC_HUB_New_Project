@@ -9,7 +9,7 @@ const Blgsection: React.FC = () => {
           <img
             src="assets\handshake.png"
             alt="Business handshake"
-            className="rounded-xl shadow-lg h-120"
+            className="rounded-xl shadow-lg md:h-120"
           />
         </div>
 

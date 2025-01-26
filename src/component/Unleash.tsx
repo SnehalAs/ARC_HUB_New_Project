@@ -60,24 +60,27 @@ const Unleash: React.FC = () => {
               <p className="text-gray-600">Global customers</p>
             </div>
           </div>
+          <div className="text-center mt-6">
+  <div className="flex items-center justify-center gap-4 flex-nowrap md:mr-32">
+    <p className="text-gray-600 whitespace-nowrap">Featured in</p>
+    <img
+      src="assets/publish1.svg"
+      alt="Dailyhunt"
+      className="h-6"
+    />
+    <img
+      src="assets/publish2.svg"
+      alt="TOI"
+      className="h-6"
+    />
+    <img
+      src="assets/publish3.svg"
+      alt="Hindustan Times"
+      className="h-6"
+    />
+  </div>
+</div>
 
-        
-          <div className="text-center ">
-            <div className="flex justify-center gap-4 mt-2 ">
-              <p className="text-gray-600  md:mr-12">Featured in</p>
-              <img
-                src="assets/publish1.svg"
-                alt="Dailyhunt"
-                className="h-6 md:mr-10 "
-              />
-              <img src="assets/publish2.svg" alt="TOI" className="h-6 md:mr-10" />
-              <img
-                src="assets/publish3.svg"
-                alt="Hindustan Times"
-                className="h-6"
-              />
-            </div>
-          </div>
         </div>
 
     

@@ -51,8 +51,8 @@ const Footer: React.FC = () => {
           <a href="#" aria-label="Facebook"><i className="fab fa-facebook"></i></a>
           <a href="#" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
         
-        <div className="flex space-x-4 text-2xl ">
-          <FaTwitter className="cursor-pointer hover:text-blue-400 h-8 w-8" />
+        <div className="flex space-x-4 text-2xl md:mr-18 ">
+          <FaTwitter className="cursor-pointer hover:text-blue-400 h-8 w-8 " />
           <FaFacebookF className="cursor-pointer hover:text-blue-700 h-8 w-8" />
           <FaInstagram className="cursor-pointer hover:text-pink-500 h-8 w-8" />
           <FaGithub className="cursor-pointer hover:text-gray-900 h-8 w-8" />

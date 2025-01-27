@@ -35,7 +35,7 @@ const MetricsSection: React.FC = () => {
   }, []);
 
   return (
-    <section className="text-center py-16 md:max-w-6xl md:ml-40">
+    <section className="text-center py-16 md:max-w-6xl  container mx-auto">
       <h1 className="text-4xl font-bold text-gray-900">
         We are big enough to deliver and small enough to care
       </h1>

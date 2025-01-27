@@ -49,8 +49,8 @@ const Navbar = () => {
             </button>
           </div>
 
-          <div className="hidden lg:flex gap-16 text-black-500 font-semibold  items-center">
-            <div className="relative text-xl">
+          <div className="hidden lg:flex gap-16 text-black-500   items-center">
+            <div className="relative text-md">
               <button
                 className="hover:text-black flex items-center gap-2"
                 onClick={() => setShowServices(!showServices)}
@@ -84,7 +84,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <div className="relative text-xl">
+            <div className="relative text-md">
               <button
                 className="hover:text-black flex items-center gap-2"
                 onClick={() => setShowResources(!showResources)}
@@ -118,7 +118,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <div className="relative text-xl">
+            <div className="relative text-md">
               <button
                 className="hover:text-black flex items-center gap-2"
                 onClick={() => setShowCommunity(!showCommunity)}
@@ -152,7 +152,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <a href="#about" className="hover:text-black text-xl">
+            <a href="#about" className="hover:text-black text-md">
               About Us
             </a>
           </div>
